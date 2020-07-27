@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyNamespace;
+use Illuminate\Http\Request;
+use DummyService;
+class DummyClass extends \App\Http\Controllers\Common\BaseController
+{
+    public function __construct (ServiceClass $Service)
+    {
+        $this->Service = $Service;
+    }
+}

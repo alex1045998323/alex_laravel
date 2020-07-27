@@ -18,7 +18,7 @@ $api->version(['v1'], function ($api) {
         $api->post('login','AuthController@login');
         $api->post('logout','AuthController@logout');
         $api->resource('code-list','CodeListController');
-
+        $api->resource('test','TestController');
         $api->group(['middleware'=>['auth'] ],function ($api){
             $api->post('refresh','AuthController@refreshToken');
             $api->post('me','AuthController@me');

@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass extends \App\Models\Common\BaseModel
+{
+    protected $table = '';
+    protected $primaryKey = 'id';
+    public $timestamps = false;
+    protected $fillable = [];//开启白名单字段
+}

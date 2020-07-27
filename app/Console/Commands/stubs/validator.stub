@@ -1,0 +1,25 @@
+<?php
+
+namespace DummyNamespace;
+use Prettus\Validator\LaravelValidator;
+use Prettus\Validator\Contracts\ValidatorInterface;
+
+class DummyClass extends LaravelValidator
+{
+    protected $rules = [
+            ValidatorInterface::RULE_CREATE => [
+            ],
+            ValidatorInterface::RULE_UPDATE => [
+            ]
+        ];
+        /**
+         * 自定义属性名称
+         * @var array
+         */
+        protected $attributes = [
+        ];
+        protected $messages = [
+            'required' => '【:attribute】不能为空.',
+            'regex'    => '【:attribute】格式错误.'
+        ];
+}

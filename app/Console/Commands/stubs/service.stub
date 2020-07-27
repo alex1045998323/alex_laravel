@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+use Illuminate\Http\Request;
+use DummyRepository;
+use DummyValidator;
+use \Prettus\Validator\Exceptions\ValidatorException;
+
+class DummyClass extends \App\Http\Services\Common\BaseService
+{
+    public function __construct (RepositoryClass $repository,ValidatorClass $validator)
+    {
+        $this->repository = $repository;
+        $this->validator  = $validator;
+    }
+}
