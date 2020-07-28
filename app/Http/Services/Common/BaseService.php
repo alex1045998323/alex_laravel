@@ -13,8 +13,9 @@ use Prettus\Validator\Contracts\ValidatorInterface;
 class BaseService implements ServiceInterface
 {
     use \App\Http\Traits\ServiceTrait;
-    const RULE_CREATE = ValidatorInterface::RULE_CREATE;
-    const RULE_UPDATE = ValidatorInterface::RULE_UPDATE;
+    const RULE_CREATE = ValidatorInterface::RULE_CREATE;    //新增
+    const RULE_UPDATE = ValidatorInterface::RULE_UPDATE;    //修改
+    const RULE_ADMIN_LOGIN = 'admin_login';                 //登录验证
     /**
      * 指定使用的repository
      * @var
@@ -25,29 +26,6 @@ class BaseService implements ServiceInterface
      * @var
      */
     protected $validator;
-    /**
-     * laravel 查询构造分页
-     * @param null  $limit
-     * @param array $columns
-     * @return mixed
-     */
-    public function getPaginate($limit = null, $columns = ['*']){
-        $result = $this->repository->paginate($limit,$columns)->toArray();
-        // todo    处理需要返回分页的数据格式等等
-        return V(1,'获取成功',$result);
-    }
-
-    /**
-     * laravel 简单分页
-     * @param null  $limit
-     * @param array $columns
-     * @return mixed
-     */
-    public function simplePaginate($limit = null, $columns = ['*']){
-        $result = $this->repository->simplePaginate($limit,$columns);
-        // todo    处理需要返回分页的数据格式等等
-        return V(1,'获取成功',$result);
-    }
 
     /**
      * 新增数据
@@ -80,18 +58,32 @@ class BaseService implements ServiceInterface
         try{
             $this->validator->with($request->all())->passesOrFail(self::RULE_UPDATE);
             //进行修改动作
-            try{
-                if($list = $this->repository->update($request->all(),$id)){
-                    return V(1,'修改成功',$list->toArray());
-                };
-                throw new \Exception('修改失败');
-            }catch (\Exception $e){
-                throw new \Exception($e->getMessage());
-            }
+            if($list = $this->repository->update($request->all(),$id)){
+                return V(1,'修改成功',$list->toArray());
+            };
+            throw new \Exception('修改失败');
         }catch (ValidatorException $e){
             // 返回第一条错误信息
             $error = $this->validator->errors()[0];
             return V(0,$error);
+        }catch (\Exception $e){
+            return V(0,$e->getMessage());
+        }
+    }
+
+    /**
+     * 删除
+     * @param $id
+     * @return array
+     */
+    public function destroy($id){
+        try{
+            if($this->repository->delete($id)===true){
+                return V(1,'删除成功');
+            }
+            throw new \Exception('删除失败');
+        }catch (\Exception $e){
+            return V(0,$e->getMessage());
         }
     }
 

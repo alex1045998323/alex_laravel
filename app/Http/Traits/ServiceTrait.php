@@ -18,7 +18,21 @@ trait ServiceTrait
      * @return mixed|void
      */
     public function getPaginate($limit='',$columns=['*']){
-        return V(1,'成功');
+        $result = $this->repository->paginate($limit,$columns)->toArray();
+        // todo    处理需要返回分页的数据格式等等
+        return V(1,'获取成功',$result);
+    }
+
+    /**
+     * laravel 简单分页
+     * @param null  $limit
+     * @param array $columns
+     * @return mixed
+     */
+    public function simplePaginate($limit = null, $columns = ['*']){
+        $result = $this->repository->simplePaginate($limit,$columns);
+        // todo    处理需要返回分页的数据格式等等
+        return V(1,'获取成功',$result);
     }
 
     /**
@@ -68,7 +82,7 @@ trait ServiceTrait
      * @param $id
      * @return mixed|void
      */
-    public function delete ($id)
+    public function destroy ($id)
     {
         // TODO: Implement delete() method.
         return V(1,'成功');

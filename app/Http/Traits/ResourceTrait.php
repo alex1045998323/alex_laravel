@@ -22,7 +22,7 @@ trait ResourceTrait
      * @return \Illuminate\Http\Response
      */
     public function index(){
-        echo '显示数据列表';
+        return self::responseJson($this->Service->getPaginate());
     }
 
     /**
@@ -65,7 +65,7 @@ trait ResourceTrait
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request){
-        echo '新增数据';
+        return self::responseJson($this->Service->Create($request));
     }
 
 
@@ -78,7 +78,7 @@ trait ResourceTrait
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id){
-        echo '修改数据';
+        return self::responseJson($this->Service->update($request,$id));
     }
 
     /**
@@ -89,6 +89,6 @@ trait ResourceTrait
      * @return \Illuminate\Http\Response
      */
     public function destroy($id){
-        echo '删除数据';
+        return self::responseJson($this->Service->destroy($id));
     }
 }

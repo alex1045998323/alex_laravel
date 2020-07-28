@@ -36,5 +36,4 @@ Route::get('/Artisan/AlexCreate/{module}/{name}',function ($module,$name){
     Artisan::call('make:AlexValidator', [
         'name' => $name
     ]);
-
 });
