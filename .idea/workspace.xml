@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="398b09b6-7825-471a-b134-529246627b8f" name="Default Changelist" comment="新增后台登录功能，以及功能优化">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Admin/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api/admin.php" afterDir="false" />
+    <list default="true" id="398b09b6-7825-471a-b134-529246627b8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CodeListController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Common/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Common/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Interfaces/ServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Interfaces/ServiceInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Repositories/CodeListRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Services/Api/CodeListService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Services/Common/BaseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Services/Common/BaseService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Traits/ResourceTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Traits/ResourceTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Traits/ServiceTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Traits/ServiceTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Common/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Common/BaseModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Services/Common/BaseService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            <state relative-caret-position="618">
+              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
               <folding>
                 <element signature="e#277#319#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/api/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -59,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Interfaces/ServiceInterface.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="812">
-              <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -68,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Traits/ServiceTrait.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="591">
-              <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+              <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -98,21 +91,9 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Services/Api/AuthService.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="e#311#347#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#45#86#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
-              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -224,12 +205,12 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/routes/api/api.php" />
-        <option value="$PROJECT_DIR$/routes/api/admin.php" />
         <option value="$PROJECT_DIR$/app/Http/Traits/ResourceTrait.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Common/BaseController.php" />
         <option value="$PROJECT_DIR$/app/Http/Services/Common/BaseService.php" />
         <option value="$PROJECT_DIR$/app/Http/Traits/ServiceTrait.php" />
         <option value="$PROJECT_DIR$/app/Http/Interfaces/ServiceInterface.php" />
+        <option value="$PROJECT_DIR$/routes/api/admin.php" />
       </list>
     </option>
   </component>
@@ -337,9 +318,9 @@
       <path value="$PROJECT_DIR$/vendor/dingo/blueprint" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="54" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="229" />
+    <option name="y" value="54" />
     <option name="width" value="1738" />
     <option name="height" value="1097" />
   </component>
@@ -359,98 +340,7 @@
             <path>
               <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -469,6 +359,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/Console/Commands" />
       <recent name="$PROJECT_DIR$/app/Http/Traits" />
       <recent name="$PROJECT_DIR$/app/Http/Interfaces" />
@@ -516,7 +407,7 @@
       <workItem from="1595584132499" duration="376000" />
       <workItem from="1595584564467" duration="209000" />
       <workItem from="1595813481638" duration="18751000" />
-      <workItem from="1595899750607" duration="9666000" />
+      <workItem from="1595899750607" duration="10481000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1595584639996</created>
@@ -546,17 +437,30 @@
       <option name="project" value="LOCAL" />
       <updated>1595846633769</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增后台登录功能，以及代码优化">
+      <created>1595926219270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595926219270</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增后台登录功能，以及代码优化">
+      <created>1595926877183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595926877183</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69446000" />
+    <option name="totallyTimeSpent" value="70261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1792" height="1120" extended-state="6" />
-    <editor active="true" />
+    <frame x="877" y="23" width="1738" height="1097" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25085714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25884435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -609,7 +513,8 @@
     <MESSAGE value="新增自动 一键生成 curd 架构文件       如浏览器通过get访问domain_name/Artisan/AlexCreate/{module}/{name}" />
     <MESSAGE value="修改说明文档" />
     <MESSAGE value="新增后台登录功能，以及功能优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增后台登录功能，以及功能优化" />
+    <MESSAGE value="新增后台登录功能，以及代码优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增后台登录功能，以及代码优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Console/Commands/stubs/repository.stub">
@@ -852,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Traits/ResponseFormatTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -931,7 +829,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -969,7 +867,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Services/Api/AuthService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="e#311#347#0#PHP" expanded="true" />
           </folding>
@@ -986,24 +884,31 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Traits/ServiceTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
-          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+          <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Interfaces/ServiceInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="812">
-          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Services/Common/BaseService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        <state relative-caret-position="618">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
           <folding>
             <element signature="e#277#319#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
