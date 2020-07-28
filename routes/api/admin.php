@@ -1,5 +1,5 @@
 <?php
-// 前台接口路由定义部分
+// 后台接口路由定义部分
 $api->group(['namespace'=>'App\Http\Controllers\Admin'],function ($api){
     $api->resource('admin','AdminController');
     $api->post('admin/signin','LoginController@signIn');     // 登录
