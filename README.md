@@ -27,3 +27,9 @@
    1. 不使用dingo 的api ,直接进行rest请求
    2. 使用dingo的api, 进行postman ，根据dingo 请求方式进行请求
    
+#### 6 自动生成showdoc 接口文档，
+   1. 具体使用方法 https://www.showdoc.cc/page/741656402509783
+   2. 根目录下执行./showdoc_api.sh app/Http/Controllers   当然这部分可以根据自己需要进行改写
+   3. 示例: 当前项目  ./api_demo.test
+   4. showdoc个人部署网址：http://www.mengyu520.com ，具体账号密码需要联系管理员【ALex Cui】添加
+   

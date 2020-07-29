@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use Prettus\Repository\Eloquent\BaseRepository;
-
+use \Prettus\Validator\Contracts\ValidatorInterface;
 class DummyClass extends BaseRepository
 {
     /**

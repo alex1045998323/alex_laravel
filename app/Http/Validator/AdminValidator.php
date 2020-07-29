@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Validator;
-use Prettus\Validator\Contracts\ValidatorInterface;
-use Prettus\Validator\LaravelValidator;
+use \Prettus\Validator\Contracts\ValidatorInterface;
+use \Prettus\Validator\LaravelValidator;
 
 class AdminValidator extends LaravelValidator
 {

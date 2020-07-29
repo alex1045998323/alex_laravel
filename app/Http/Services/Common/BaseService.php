@@ -9,7 +9,7 @@
 namespace App\Http\Services\Common;
 use \App\Http\Interfaces\ServiceInterface;
 use Illuminate\Http\Request;
-use Prettus\Validator\Contracts\ValidatorInterface;
+use \Prettus\Validator\Contracts\ValidatorInterface;
 class BaseService implements ServiceInterface
 {
     use \App\Http\Traits\ServiceTrait;

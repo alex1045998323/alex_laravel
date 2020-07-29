@@ -10,7 +10,7 @@
 
 namespace App\Http\Repositories;
 use Prettus\Repository\Eloquent\BaseRepository;
-
+use \Prettus\Validator\Contracts\ValidatorInterface;
 class UserRepository extends BaseRepository
 {
     /**
