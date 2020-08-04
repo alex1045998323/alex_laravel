@@ -10,12 +10,16 @@ class AdminRepository extends BaseRepository
          * @var array
          */
         protected $fieldSearchable = [
+            'id',
+            'status',
+            'user_name'=>'like'
         ];
         /**
          * 设置默认的查询条件
          * @throws \Prettus\Repository\Exceptions\RepositoryException
          */
         public function boot(){
+            $this->pushCriteria(app('Prettus\Repository\Criteria\RequestCriteria'));
         }
         /**
          * Specify Model class name

@@ -10,7 +10,9 @@ class AdminModel extends Authenticatable implements JWTSubject
     protected $table = 'ls_admin';
     protected $primaryKey = 'id';
     public $timestamps = false;
-    protected $fillable = [];//开启白名单字段
+    protected $fillable = [
+        'user_name','password','create_at','update_at','status','delete_at'
+    ];//开启白名单字段
     /**
      * @author AdamTyn
      * @description 获取JWT中用户标识

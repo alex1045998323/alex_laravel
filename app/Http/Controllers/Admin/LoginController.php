@@ -30,7 +30,7 @@ class LoginController extends \App\Http\Controllers\Common\BaseController
      * @header Accept 必选 string application/vnd.alex_laravel.v1+json
      * @param username 必选 string 用户名
      * @param password 必选 string 密码
-     * @return {"code":1,"msg":"登录成功","data":{"id":"1","username":"12154545","password":"123456"}}
+     * @return {"code":1,"msg":"登录成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hbGV4X2xhcmF2ZWwuY29tXC9hcGlcL2FkbWluXC9zaWduaW4iLCJpYXQiOjE1OTU5MjMzNzAsImV4cCI6MTU5NTkyNjk3MCwibmJmIjoxNTk1OTIzMzcwLCJqdGkiOiJEaHhUbVVCQkVBR2MyVDZ6Iiwic3ViIjoxLCJwcnYiOiIxOGIwNTg2ZjU1ZjliNWFjNzc2ZjcyNTdlM2I4N2QzNjZmNmM1YzcxIn0.i3PIU0YO4B2uUHgUKD6Lm3A6yLehAUiebP5DGUTJo9g"}}
      * @return_param username string 用户昵称
      * @return_param password string 密码
      * @remark 这里是备注信息
@@ -47,7 +47,7 @@ class LoginController extends \App\Http\Controllers\Common\BaseController
      * @method post
      * @url /api/admin/signout
      * @header Accept 必选 string application/vnd.alex_laravel.v1+json
-     * @header Authorization 必选 string Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hbGV4X2xhcmF2ZWwuY29tXC9hcGlcL2FkbWluXC9zaWduaW4iLCJpYXQiOjE1OTU5MjMzNzAsImV4cCI6MTU5NTkyNjk3MCwibmJmIjoxNTk1OTIzMzcwLCJqdGkiOiJEaHhUbVVCQkVBR2MyVDZ6Iiwic3ViIjoxLCJwcnYiOiIxOGIwNTg2ZjU1ZjliNWFjNzc2ZjcyNTdlM2I4N2QzNjZmNmM1YzcxIn0.i3PIU0YO4B2uUHgUKD6Lm3A6yLehAUiebP5DGUTJo9g
+     * @header Authorization 必选【登录成功的token】 string Bearer空格token
      * @return {"code":1,"msg":"退出成功","data":{}}
      * @remark 这里是备注信息
      * @number 2
