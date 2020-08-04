@@ -1,54 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="398b09b6-7825-471a-b134-529246627b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/api/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/clipboard/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/clipboard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/el-drag-dialog/drag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/el-drag-dialog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/el-table/adaptive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/el-table/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/permission/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/permission/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/waves/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/waves/waves.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/directive/waves/waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/TagsView/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/store/modules/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/store/modules/tagsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/views/admin/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vue-admin-template/src/views/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="398b09b6-7825-471a-b134-529246627b8f" name="Default Changelist" comment="新增自动化生成 showdoc API文档">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Repositories/AdminRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Repositories/AdminRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Services/Admin/AdminService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Services/Admin/AdminService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/AdminModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/.env.development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/components/Breadcrumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/Sidebar/Logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/Sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/layout/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/layout/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/store/getters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/store/modules/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/store/modules/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/store/modules/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/views/dashboard/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/src/views/table/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/src/views/table/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vue-admin-template/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vue-admin-template/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Repositories/AdminRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="198">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -393,71 +348,7 @@
             <path>
               <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="Criteria" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="element_view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alex_laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alex_laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -530,7 +421,7 @@
       <workItem from="1596073632862" duration="1652000" />
       <workItem from="1596105443631" duration="12000" />
       <workItem from="1596259758224" duration="1273000" />
-      <workItem from="1596531394328" duration="1644000" />
+      <workItem from="1596531394328" duration="2283000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1595584639996</created>
@@ -588,14 +479,22 @@
       <option name="project" value="LOCAL" />
       <updated>1596010583069</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="新增 element-admin-template   ,后台基础框架部分">
+      <created>1596535007387</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596535007387</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85296000" />
+    <option name="totallyTimeSpent" value="85935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1792" height="1120" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -653,7 +552,8 @@
     <MESSAGE value="新增后台登录功能，以及代码优化" />
     <MESSAGE value="测试数据库" />
     <MESSAGE value="新增自动化生成 showdoc API文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增自动化生成 showdoc API文档" />
+    <MESSAGE value="新增 element-admin-template   ,后台基础框架部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 element-admin-template   ,后台基础框架部分" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
@@ -1008,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Repositories/AdminRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="198">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
