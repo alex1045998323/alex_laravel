@@ -50,9 +50,13 @@ return [
 
         'public' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'root' => storage_path('Uploads/public'),
             'visibility' => 'public',
+        ],
+        //报表上传路径
+        'excel' => [
+            'driver'=>'local',
+            'root'=>'Uploads/excel'
         ],
 
         's3' => [

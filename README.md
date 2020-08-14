@@ -1,7 +1,13 @@
 # alex_laravel
-1. 基于 laravel6.0,dingo2.0, prettus/l5-repository 2.6 ,prettus/laravel-validation 1.2,tymon/jwt-auth 1.0
-2. 路由部分 restful 资源路由
-3. 其他需要修改的都可以根据继承的 Common 类，进行继承重写
+1. 框架基于 laravel6.0
+2. 接口基于 dingo2.0
+3. 代码架构设计基于prettus/l5-repository 2.6 ,prettus/laravel-validation
+4. 登录token认证基于tymon/jwt-auth 1.0
+5. http发起request请求基于 "guzzlehttp/guzzle": "^7.0"
+6. excel 报表导入导出基于 "maatwebsite/excel": "^3.1"
+7. 路由部分 restful 资源路由
+8. 其他需要修改的都可以根据继承的 Common 类，进行继承重写
+9. 代码设计 controller->service->repository->model
 #### 使用说明
 
 新增自动 一键生成 curd 架构文件

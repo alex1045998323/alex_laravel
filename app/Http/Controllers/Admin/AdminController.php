@@ -118,4 +118,21 @@ class AdminController extends \App\Http\Controllers\Common\BaseController
     public function destroy($id){
         return self::responseJson($this->Service->destroy($id));
     }
+
+    /**
+     * 导入报表
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function importExcel(Request $request){
+        return self::responseJson($this->Service->importExcel($request));
+    }
+    /**
+     * 导出报表
+     * @param Request $request
+     * @return mixed
+     */
+    public function exportExcel(Request $request){
+        return $this->Service->exportExcel($request);
+    }
 }

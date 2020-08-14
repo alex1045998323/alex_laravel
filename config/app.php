@@ -181,7 +181,8 @@ return [
          */
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
-        Dingo\Api\Provider\LaravelServiceProvider::class
+        Dingo\Api\Provider\LaravelServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class
 
     ],
 
@@ -233,7 +234,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-       'ValidatorInterface' => Prettus\Validator\Contracts\ValidatorInterface::class
+       'ValidatorInterface' => Prettus\Validator\Contracts\ValidatorInterface::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class
     ],
 
 ];
